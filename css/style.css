@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* box-sizing: border-box; */
+}
+body{
+    background: linear-gradient(to right, #001012,#005f64, #03f1fd);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    background: linear-gradient(to right, #001012,#005f64, #03f1fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10%;
+    text-align: center;
+}
+header{
+    width: 30%;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #086457 9%, #05746e 100%,#0cf9ed 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+header .line{
+    width: 45%;
+    border: #0DBBB9 1px solid;
+    height: 0px;
+    margin: 24px 0px;
+}
+span{
+    background: #0DBBB9;
+    padding: 8px;
+    border-radius: 50%;
+    justify-content: center;
+    margin: auto;
+}
+.container{
+    width: 60%;
+    height: 44vh;
+    margin: auto;
+    /* background: linear-gradient(to right, #03f1fd #05746e #005f64); */
+    background-color: #005f64;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 14px;
+    margin-top: 0%;
+}
+.right-form{
+    width: 23%;
+    height: 44vh;
+    background-color: #0DBBB9;
+    clip-path: polygon(0 0, 100% 98%, 100% 0);
+    overflow: hidden;
+    border: 14px;
+    border-radius: 0px 14px 14px 0;
+}
+.right-form img{
+    width: 18vh;
+    margin-left: 40%;
+}
+.form-container{
+    width: 54%;
+    height: 44vh;
+    margin-left: 20px;
+}
+.form-container .form-header img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin-left: 38%;
+}
+.form-container .form-group input{
+    padding: 14px;
+    width: 90%;
+    margin-top: 14px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+}
+.form-container .form-group button{
+    padding: 12px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    background: #0DBBB9;
+    margin-top: 14px;
+    color: white;
+}
+.left-form{
+    width: 23%;
+    height: 100%;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+
+}
+.left-form img{
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+}
+
